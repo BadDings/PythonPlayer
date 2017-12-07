@@ -7,5 +7,5 @@ Aufgaben:
   - Musik pausieren, vorspulen und zurückspulen
   
   Extras:
-    - Auslesen Künstlername & Album
-    - GUI Anzeige, wie weit Musikstück fortgeschritten ist
+  - Auslesen Künstlername & Album
+  - GUI Anzeige, wie weit Musikstück fortgeschritten ist
