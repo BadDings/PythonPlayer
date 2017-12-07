@@ -3,7 +3,7 @@ We are creating a MP3 Player based on Python
 
 Aufgaben:
   - GUI = BronyBeat
-  - Musikerkennung
+  - Musikerkennung = BadDings
   - Musik pausieren, vorspulen und zurückspulen
   
   Extras:
