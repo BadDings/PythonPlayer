@@ -51,18 +51,18 @@ gravity = Player("Gravity Falls - Theme", 41, vlc.MediaPlayer("file:///Library/M
 
 
 
-#print("Willkommen in der Musiklounge! Dies ist der PiPlayer, er ermöglicht das abspielen von MP3 Dateien!")
+print("Willkommen in der Musiklounge! Dies ist der PiPlayer, er ermöglicht das abspielen von MP3 Dateien!")
 #time.sleep(6)
-#print("Dieses Programm wurde mithilfe des VLC Python Skriptes und dem VLC Media Player entwickelt")
-#time.sleep(6)
-#print("Um dieses Programm zu bedienen sind folgende Befehle erforderlich:")
+print("Dieses Programm wurde mithilfe des VLC Python Skriptes und dem VLC Media Player entwickelt")
+time.sleep(6)
+print("Um dieses Programm zu bedienen sind folgende Befehle erforderlich:")
 #time.sleep(2)
-#print("Mithilfe des Kommandos 'Liste' werden alle Musiktitel aufgelistet, welche zur Verfügung stehen")
+print("Mithilfe des Kommandos 'liste' werden alle Musiktitel aufgelistet, welche zur Verfügung stehen")
 #time.sleep(3)
-#print("Durch die Eingabe der Titelnummer wird das jeweilige Musikstück abgespielt.")
+print("Durch die Eingabe der Titelnummer wird das jeweilige Musikstück abgespielt.")
 #time.sleep(3)
-#print("Mithilfe von 'Hilfe' werden alle Kommandos noch einmal erläutert")
-#time.sleep(5)
+print("Mithilfe von 'hilfe' werden alle Kommandos noch einmal erläutert")
+time.sleep(5)
 
 os.system('cls' if os.name == 'nt' else 'clear')
 
@@ -77,18 +77,18 @@ try:
         ein = input()
 
         if ein == "hilfe":
-            print("Das Kommando Liste listet alle Musiktitel auf")
+            print("Das Kommando 'liste' listet alle Musiktitel auf")
             print("Mit Eingabe der Titelnummer wird das jeweilige Musikstück abgespielt")
-            print("Mit Leeren wird die Konsole des Programmes geleert")
-            print("Mit dem Befehl Aus wird das Programm beendet.")
+            print("Mit 'leeren' wird die Konsole des Programmes geleert")
+            print("Mit dem Befehl 'aus' wird das Programm beendet.")
 
             print("---------------------------------------------------------------------")
 
             print("Befehle, während ein Musiktitel abgespielt wird:")
-            print("Mit dem Befehl stop wird der derzeitige Musiktitel abgebrochen")
+            print("Mit dem Befehl 'stop' wird der derzeitige Musiktitel abgebrochen")
 
             print("---------------------------------------------------------------------")
-            print("Mit Hilfe werden alle Kommandos noch einmal erläuter")
+            print("Mit 'hilfe' werden alle Kommandos noch einmal erläuter")
 
         elif ein == "liste":
             print("01 = Megalovania")
